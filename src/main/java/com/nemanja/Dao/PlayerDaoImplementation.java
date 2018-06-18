@@ -1,6 +1,7 @@
 package com.nemanja.Dao;
 
 import com.nemanja.Entity.Player;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
@@ -8,7 +9,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Repository
-public class PlayerDao {
+@Qualifier("fakeData")
+public class PlayerDaoImplementation implements IPlayer {
 
     private static Map<Integer, Player> players;
 
@@ -22,21 +24,25 @@ public class PlayerDao {
         };
     }
 
+    @Override
     public Collection<Player> getAllPlayers()
     {
         return this.players.values();
     }
 
+    @Override
     public  Player getPlayerById(int id)
     {
         return this.players.get(id);
     }
 
+    @Override
     public void removePlayerById(int id)
     {
         this.players.remove(id);
     }
 
+    @Override
     public void updatePlayer(Player player)
     {
         Player pl = players.get(player.getId());
@@ -45,6 +51,7 @@ public class PlayerDao {
         players.put(player.getId(), player);
     }
 
+    @Override
     public void insertPlayerToDb(Player player)
     {
         this.players.put(player.getId(), player);
