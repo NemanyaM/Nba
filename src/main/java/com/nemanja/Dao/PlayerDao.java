@@ -32,7 +32,21 @@ public class PlayerDao {
         return this.players.get(id);
     }
 
-    public void removePlayerById(int id) {
+    public void removePlayerById(int id)
+    {
         this.players.remove(id);
+    }
+
+    public void updatePlayer(Player player)
+    {
+        Player pl = players.get(player.getId());
+        pl.setTeam(player.getTeam());
+        pl.setName(player.getName());
+        players.put(player.getId(), player);
+    }
+
+    public void insertPlayerToDb(Player player)
+    {
+        this.players.put(player.getId(), player);
     }
 }

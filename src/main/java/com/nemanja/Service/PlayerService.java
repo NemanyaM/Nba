@@ -23,7 +23,18 @@ public class PlayerService {
         return this.playerDao.getPlayerById(id);
     }
 
-    public void removePlayerById(int id) {
+    public void removePlayerById(int id)
+    {
         this.playerDao.removePlayerById(id);
+    }
+
+    public void updatePlayer(Player player)
+    {
+        this.playerDao.updatePlayer(player);
+    }
+
+    public void insertPlayer(Player player)
+    {
+        this.playerDao.insertPlayerToDb(player);
     }
 }
