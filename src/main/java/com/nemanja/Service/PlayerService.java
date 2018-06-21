@@ -12,7 +12,7 @@ import java.util.Collection;
 public class PlayerService {
 
     @Autowired
-    @Qualifier("fakeData")
+    @Qualifier("mysql")
     private IPlayer IPlayer;
 
     public Collection<Player> getAllPlayers()
