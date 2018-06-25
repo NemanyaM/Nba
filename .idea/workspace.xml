@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c428d5-8405-4c12-aef8-ed475b15d290" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nemanja/Dao/MySqlPlayerDaoImplementation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nemanja/Controller/PlayerController.class" afterPath="$PROJECT_DIR$/target/classes/com/nemanja/Controller/PlayerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/nemanja/Service/PlayerService.class" afterPath="$PROJECT_DIR$/target/classes/com/nemanja/Service/PlayerService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basketballLeague.iml" afterPath="$PROJECT_DIR$/basketballLeague.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nemanja/Service/PlayerService.java" afterPath="$PROJECT_DIR$/src/main/java/com/nemanja/Service/PlayerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nemanja/Dao/MySqlPlayerDaoImplementation.java" afterPath="$PROJECT_DIR$/src/main/java/com/nemanja/Dao/MySqlPlayerDaoImplementation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,13 +87,15 @@
       <file leaf-file-name="MySqlPlayerDaoImplementation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nemanja/Dao/MySqlPlayerDaoImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="515">
+              <caret line="53" column="47" lean-forward="false" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <marker date="1529572775469" expanded="true" signature="613:634" ph="SELECT * FRO... players" />
+                <marker date="1529920904446" expanded="true" signature="1031:1052" ph="SELECT * FRO... players" />
+                <marker date="1529920904446" expanded="true" signature="1249:1283" ph="SELECT * FRO... players" />
+                <marker date="1529920904446" expanded="true" signature="1486:1518" ph="DELETE FROM " />
+                <marker date="1529920904446" expanded="true" signature="1654:1704" ph="UPDATE name " />
+                <marker date="1529920904446" expanded="true" signature="1997:2043" ph="INSERT INTO players... " />
               </folding>
             </state>
           </provider>
@@ -194,10 +184,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nemanja/Dao/PlayerDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nemanja/Dao/PlayerDaoImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nemanja/Dao/PlayerDBConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nemanja/Dao/MySqlPlayerDaoImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nemanja/Service/PlayerService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nemanja/Dao/MySqlPlayerDaoImplementation.java" />
       </list>
     </option>
   </component>
@@ -521,7 +511,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528898191511</updated>
       <workItem from="1528898195825" duration="6185000" />
-      <workItem from="1528962952610" duration="11088000" />
+      <workItem from="1528962952610" duration="13625000" />
     </task>
     <task id="LOCAL-00001" summary="Crud methods Implemented">
       <created>1529334828645</created>
@@ -537,11 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529335946758</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JDBC connection to db implemented">
+      <created>1529573899841</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529573899841</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17273000" />
+    <option name="totallyTimeSpent" value="19810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -555,7 +552,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -587,7 +584,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Crud methods Implemented" />
     <MESSAGE value="Refactor to Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor to Interface" />
+    <MESSAGE value="JDBC connection to db implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC connection to db implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -675,6 +673,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -745,33 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nemanja/Dao/MySqlPlayerDaoImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <marker date="1529572775469" expanded="true" signature="613:634" ph="SELECT * FRO... players" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nemanja/Dao/PlayerDBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nemanja/Dao/PlayerDaoImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -793,6 +769,31 @@
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nemanja/Dao/PlayerDaoImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nemanja/Dao/MySqlPlayerDaoImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="53" column="47" lean-forward="false" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1529920904446" expanded="true" signature="1031:1052" ph="SELECT * FRO... players" />
+            <marker date="1529920904446" expanded="true" signature="1249:1283" ph="SELECT * FRO... players" />
+            <marker date="1529920904446" expanded="true" signature="1486:1518" ph="DELETE FROM " />
+            <marker date="1529920904446" expanded="true" signature="1654:1704" ph="UPDATE name " />
+            <marker date="1529920904446" expanded="true" signature="1997:2043" ph="INSERT INTO players... " />
+          </folding>
         </state>
       </provider>
     </entry>
